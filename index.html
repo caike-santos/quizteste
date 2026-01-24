@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz teste</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="imgs/WhatsApp Image 2026-01-24 at 10.23.51.jpeg" alt="logo">
+        <p>Quiz do Caíke</p>
+    </header>
+
+    <main>
+        <form action="">
+            <div id="caixa">
+                <div id="topo">
+                    <p id="numero">1/10</p>
+                    <h1 id="questao">Quem é o Rei do HTML?</h1>
+                </div>
+            
+                <div id="perguntas">
+                     <label class="alternativa">
+                         <input type="radio" name="opcoes" id="op1" required>
+                        <span for="op1">Caíke</span>
+                     </label>
+                        <label class="alternativa">
+                            <input type="radio" name="opcoes" id="op2" required>
+                            <span for="op2">Caíke</span>
+                        </label>
+                    <label class="alternativa">
+                        <input type="radio" name="opcoes" id="op3" required>
+                        <span for="op3">Caíke</span>
+                    </label>
+                    <label class="alternativa">
+                        <input type="radio" name="opcoes" id="op4" required>
+                        <span for="op4">Caíke</span>
+                    </label>
+                </div>
+                <button type="submit" onclick="clicar()">Confirmar</button>
+            </div>
+        </form>
+    </main>
+
+    <script>
+        
+        function clicar(){
+            var marcado = document.querySelector('input[name="opcoes"]:checked');
+        if(marcado){
+            window.alert('Acertou na mosca')
+        }else{
+            window.alert('marque meu nome primeiro');
+        }
+        }
+    </script>
+</body>
+</html>
