@@ -3,20 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-
 body{
     background-image: url(imgs/pexels-hunter-schroeder-2149144899-31585089.jpg);
-    background-position: ;
     background-size: cover;
     background-repeat: no-repeat;
     height: 100vh;
-
 }
-
 img{
     height: 100px;
-    
+
 }
 header{
     padding: 30px;
