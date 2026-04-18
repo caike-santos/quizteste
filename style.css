@@ -50,6 +50,7 @@ header{
     flex-direction: column;
     margin-bottom: 30px;
     gap: 20px;
+    word-break: break-all;
     
 }
 .alternativa{
